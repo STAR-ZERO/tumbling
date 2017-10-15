@@ -28,7 +28,7 @@ $ tumbling --apikey XXXXXXXXX --blog star-zero.tumblr.com --out ~/Desktop/img
 ## Installation
 
 ```
-$ go get github.com/STAR-ZERO/tumbling/cmd/tumbling
+$ go get github.com/STAR-ZERO/tumbling
 ```
 
 or
