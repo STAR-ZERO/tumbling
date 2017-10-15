@@ -5,7 +5,7 @@ LDFLAGS :=-ldflags "-X main.version=${VERSION} -X main.build=${BUILD}"
 
 .PHONY: build
 build:
-	go build $(LDFLAGS) -o bin/$(NAME) ./cmd/$(NAME)/main.go
+	go build $(LDFLAGS) -o bin/$(NAME)
 
 .PHONY: clean
 clean:
@@ -18,8 +18,8 @@ setup:
 
 .PHONY: deps
 deps: setup
-	dep ensure -update
+	dep ensure
 
 .PHONY: install
 install:
-	go install $(LDFLAGS) ./cmd/$(NAME)
+	go install $(LDFLAGS)
