@@ -1,7 +1,0 @@
-package: github.com/STAR-ZERO/tumbling
-import:
-- package: github.com/urfave/cli
-  version: ~1.20.0
-- package: golang.org/x/sync
-  subpackages:
-  - errgroup

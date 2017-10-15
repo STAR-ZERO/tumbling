@@ -14,11 +14,11 @@ clean:
 
 .PHONY: setup
 setup:
-	go get github.com/Masterminds/glide
+	go get -u github.com/golang/dep/cmd/dep
 
 .PHONY: deps
 deps: setup
-	glide install
+	dep ensure -update
 
 .PHONY: install
 install:
