@@ -1,5 +1,7 @@
 # tumbling
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/STAR-ZERO/tumbling)](https://goreportcard.com/report/github.com/STAR-ZERO/tumbling)
+
 Command-line Tumblr image downloader in go.
 
 ## Usage
