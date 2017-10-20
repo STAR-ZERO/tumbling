@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/STAR-ZERO/tumbling/lib"
+	"github.com/STAR-ZERO/tumbling/tumbling"
 	"github.com/urfave/cli"
 )
 
