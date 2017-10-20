@@ -1,6 +1,6 @@
 # tumbling
 
-Command-line Tumblr image downloader in golang.
+Command-line Tumblr image downloader in go.
 
 ## Usage
 
