@@ -40,3 +40,6 @@ $ make deps
 $ make install
 ```
 
+## License
+
+The MIT License
